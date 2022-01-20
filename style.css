@@ -32,9 +32,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
     background-color: darkblue;
     height: 300px;
     margin: -8px;
+    padding: 50px;
 }
 
 .hero-text {
@@ -48,9 +50,21 @@
 .hero-sign-up {
     display: flex;
     background-color: blue;
+    text-decoration: none;
     justify-content: center;
     border: 2px solid white;
     border-radius: 8px;
     width: 90px;
     padding: 5px;
+}
+
+.hero-sign-up a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.hero-image {
+    height: auto;
+    width: 400px;
+    border: 5px solid white;
 }
