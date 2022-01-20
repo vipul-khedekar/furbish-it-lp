@@ -1,8 +1,29 @@
 .header {
     display: flex;
-    background-color: darkblue;
-    color: white;
+    background-color: brown;
+    font-family: 'courier new';
     height: 80px;
     justify-content: space-between;
     align-items: center;
+    margin: -8px;
+    margin-bottom: 8px;
+}
+
+.logo {
+    color: lightpink;
+    font-size: xx-large;
+    font-weight: 800;
+    #border: 2px solid lightpink;
+    padding: 15px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.header-links a {
+    color: white;
+    text-decoration-line: none;
 }
