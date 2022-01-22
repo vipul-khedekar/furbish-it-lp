@@ -108,3 +108,7 @@
     align-items: center;
     margin: 0 -8px;
 }
+
+.testimonial .review {
+    margin-top: 20px;
+}
