@@ -140,3 +140,7 @@
     text-decoration-line: none;
     color: white;
 }
+
+.sign-up-body p {
+    margin: 20px;
+}
